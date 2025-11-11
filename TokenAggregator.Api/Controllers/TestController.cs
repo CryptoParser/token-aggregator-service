@@ -8,6 +8,6 @@ public class TestController : ControllerBase
     [HttpGet("ping")]
     public async Task<IActionResult> Test()
     {
-        return Ok("pong");
+        return Ok("pong1");
     }
 }
